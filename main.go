@@ -1,9 +1,9 @@
 package main
 
 func main() {
-	sum := 0
-	for i := 0; i < 5; i++ {
-		sum += 5
+	sum := 10
+	for {
+		sum += 10
+		println(sum)
 	}
-	println(sum)
 }
